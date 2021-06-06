@@ -1,0 +1,256 @@
+# Nmap 7.91 scan initiated Sun Jun  6 04:32:41 2021 as: nmap -sS -Pn -sV -sC -PS22,443,80,8080 --open --reason -oA hilton_subdomain_hosts -iL hilton_subdomain_ips.txt
+Host: 104.130.216.107 ()	Status: Up
+Host: 104.130.216.107 ()	Ports: 21/open/tcp//ftp//ProFTPD 1.3.5e/, 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 25/open/tcp//smtp//Postfix smtpd/, 53/open/tcp//domain//ISC BIND 9.11.3-1ubuntu1.15 (Ubuntu Linux)/, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/, 465/open/tcp//ssl|smtp//Postfix smtpd/, 587/open/tcp//smtp//Postfix smtpd/, 2222/open/tcp//ssh//ProFTPD mod_sftp 0.9.9 (protocol 2.0)/, 10000/open/tcp//http//MiniServ 1.974 (Webmin httpd)/, 20000/open/tcp//http//MiniServ 1.823 (Webmin httpd)/
+Host: 104.130.4.169 (whitemailapp.com)	Status: Up
+Host: 104.130.4.169 (whitemailapp.com)	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15/, 443/open/tcp//ssl|http//Apache httpd 2.2.15 ((CentOS))/, 3306/open/tcp//mysql//MySQL 5.7.34/
+Host: 134.159.114.43 (unknown.telstraglobal.net)	Status: Up
+Host: 134.159.114.43 (unknown.telstraglobal.net)	Ports: 443/open/tcp//ssl|http//Cisco ASA SSL VPN/	Ignored State: filtered (999)
+Host: 134.213.238.16 ()	Status: Up
+Host: 134.213.238.16 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///
+Host: 142.0.173.134 ()	Status: Up
+Host: 142.0.173.134 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///
+Host: 146.20.26.85 ()	Status: Up
+Host: 146.20.26.85 ()	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/
+Host: 146.20.52.108 ()	Status: Up
+Host: 146.20.52.108 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///
+Host: 162.13.201.226 ()	Status: Up
+Host: 162.13.201.226 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///
+Host: 162.13.209.53 ()	Status: Up
+Host: 162.13.209.53 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///
+Host: 166.78.241.63 ()	Status: Up
+Host: 166.78.241.63 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+Host: 167.187.100.10 ()	Status: Up
+Host: 167.187.100.10 ()	Ports: 80/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 443/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (998)
+Host: 167.187.100.11 ()	Status: Up
+Host: 167.187.100.11 ()	Ports: 443/open/tcp//ssl|http//Microsoft IIS httpd 8.5/
+Host: 167.187.100.115 ()	Status: Up
+Host: 167.187.100.115 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.13 ()	Status: Up
+Host: 167.187.100.13 ()	Ports: 443/open/tcp//https?///	Ignored State: filtered (999)
+Host: 167.187.100.14 ()	Status: Up
+Host: 167.187.100.14 ()	Ports: 25/open/tcp//smtp//IronPort mail appliance smtpd (access denied)/	Ignored State: filtered (999)
+Host: 167.187.100.147 ()	Status: Up
+Host: 167.187.100.147 ()	Ports: 80/open/tcp//http//BigIP/, 443/open/tcp//https?///	Ignored State: filtered (998)
+Host: 167.187.100.148 ()	Status: Up
+Host: 167.187.100.148 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//https?///	Ignored State: filtered (998)
+Host: 167.187.100.149 ()	Status: Up
+Host: 167.187.100.149 ()	Ports: 25/open/tcp//smtp//IronPort mail appliance smtpd (access denied)/	Ignored State: filtered (999)
+Host: 167.187.100.150 ()	Status: Up
+Host: 167.187.100.150 ()	Ports: 443/open/tcp//ssl|rtsp///	Ignored State: filtered (999)
+Host: 167.187.100.163 ()	Status: Up
+Host: 167.187.100.163 ()	Ports: 25/open/tcp//smtp//IronPort mail appliance smtpd (access denied)/	Ignored State: filtered (999)
+Host: 167.187.100.164 ()	Status: Up
+Host: 167.187.100.164 ()	Ports: 25/open/tcp//smtp//IronPort mail appliance smtpd (access denied)/	Ignored State: filtered (999)
+Host: 167.187.100.168 ()	Status: Up
+Host: 167.187.100.168 ()	Ports: 443/open/tcp//ssl|https?///	Ignored State: filtered (999)
+Host: 167.187.100.18 ()	Status: Up
+Host: 167.187.100.18 ()	Ports: 80/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 443/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (998)
+Host: 167.187.100.19 ()	Status: Up
+Host: 167.187.100.19 ()	Ports: 443/open/tcp//ssl|http//Microsoft IIS httpd 8.5/	Ignored State: filtered (999)
+Host: 167.187.100.20 ()	Status: Up
+Host: 167.187.100.20 ()	Ports: 443/open/tcp//ssl|https?///	Ignored State: filtered (999)
+Host: 167.187.100.21 ()	Status: Up
+Host: 167.187.100.21 ()	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
+Host: 167.187.100.22 ()	Status: Up
+Host: 167.187.100.22 ()	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//https?///	Ignored State: filtered (998)
+Host: 167.187.100.23 ()	Status: Up
+Host: 167.187.100.23 ()	Ports: 443/open/tcp//https?///	Ignored State: filtered (999)
+Host: 167.187.100.24 ()	Status: Up
+Host: 167.187.100.24 ()	Ports: 2020/open/tcp//ssl|http-proxy//(proxy authentication required)/, 8443/open/tcp//ssl|https-alt?///	Ignored State: filtered (998)
+Host: 167.187.100.26 ()	Status: Up
+Host: 167.187.100.26 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.29 ()	Status: Up
+Host: 167.187.100.29 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.30 ()	Status: Up
+Host: 167.187.100.30 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.31 ()	Status: Up
+Host: 167.187.100.31 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.32 ()	Status: Up
+Host: 167.187.100.32 ()	Ports: 80/open/tcp//http//Lotus Domino httpd/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.34 ()	Status: Up
+Host: 167.187.100.34 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.35 ()	Status: Up
+Host: 167.187.100.35 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.37 ()	Status: Up
+Host: 167.187.100.37 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.40 ()	Status: Up
+Host: 167.187.100.40 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//https?///	Ignored State: filtered (998)
+Host: 167.187.100.44 ()	Status: Up
+Host: 167.187.100.44 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.51 ()	Status: Up
+Host: 167.187.100.51 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 8.5/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.100.53 ()	Status: Up
+Host: 167.187.100.53 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http//Microsoft IIS httpd 8.5/	Ignored State: filtered (998)
+Host: 167.187.100.54 ()	Status: Up
+Host: 167.187.100.54 ()	Ports: 443/open/tcp//ssl|https?///	Ignored State: filtered (999)
+Host: 167.187.100.59 ()	Status: Up
+Host: 167.187.100.59 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (998)
+Host: 167.187.101.104 ()	Status: Up
+Host: 167.187.101.104 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.101.19 ()	Status: Up
+Host: 167.187.101.19 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.101.20 ()	Status: Up
+Host: 167.187.101.20 ()	Ports: 443/open/tcp//ssl|https?///	Ignored State: filtered (999)
+Host: 167.187.101.21 ()	Status: Up
+Host: 167.187.101.21 ()	Ports: 443/open/tcp//ssl|https?///	Ignored State: filtered (999)
+Host: 167.187.101.212 ()	Status: Up
+Host: 167.187.101.212 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http//Microsoft IIS httpd 8.5/	Ignored State: filtered (998)
+Host: 167.187.101.213 ()	Status: Up
+Host: 167.187.101.213 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (998)
+Host: 167.187.101.216 ()	Status: Up
+Host: 167.187.101.216 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.101.226 ()	Status: Up
+Host: 167.187.101.226 ()	Ports: 443/open/tcp//ssl|https?///	Ignored State: filtered (999)
+Host: 167.187.101.229 ()	Status: Up
+Host: 167.187.101.229 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//https?///	Ignored State: filtered (998)
+Host: 167.187.101.235 ()	Status: Up
+Host: 167.187.101.235 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http//Microsoft IIS httpd 8.5/	Ignored State: filtered (998)
+Host: 167.187.101.238 ()	Status: Up
+Host: 167.187.101.238 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 167.187.101.244 ()	Status: Up
+Host: 167.187.101.244 ()	Ports: 80/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 443/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (998)
+Host: 167.187.101.247 ()	Status: Up
+Host: 167.187.101.247 ()	Ports: 443/open/tcp//ssl|http//Microsoft IIS httpd 8.5/	Ignored State: filtered (999)
+Host: 167.187.101.248 ()	Status: Up
+Host: 167.187.101.248 ()	Ports: 443/open/tcp//ssl|http//Microsoft IIS httpd 8.5/	Ignored State: filtered (999)
+Host: 167.187.101.249 ()	Status: Up
+Host: 167.187.101.249 ()	Ports: 443/open/tcp//ssl|http//Microsoft IIS httpd 8.5/	Ignored State: filtered (999)
+Host: 167.187.101.252 ()	Status: Up
+Host: 167.187.101.252 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|tcpwrapped///	Ignored State: filtered (998)
+Host: 167.187.101.93 ()	Status: Up
+Host: 167.187.101.93 ()	Ports: 443/open/tcp//tcpwrapped///	Ignored State: filtered (999)
+Host: 167.187.101.94 ()	Status: Up
+Host: 167.187.101.94 ()	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 167.187.101.96 ()	Status: Up
+Host: 167.187.101.96 ()	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 167.187.103.160 ()	Status: Up
+Host: 167.187.103.160 ()	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 167.187.103.161 ()	Status: Up
+Host: 167.187.103.161 ()	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 167.187.103.162 ()	Status: Up
+Host: 167.187.103.162 ()	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 167.187.103.215 ()	Status: Up
+Host: 167.187.103.215 ()	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//ssl|tcpwrapped///, 10000/open/tcp//snet-sensor-mgmt?///	Ignored State: filtered (997)
+Host: 167.187.103.217 ()	Status: Up
+Host: 167.187.103.217 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///, 10000/open/tcp//snet-sensor-mgmt?///	Ignored State: filtered (997)
+Host: 167.187.200.15 ()	Status: Up
+Host: 167.187.200.15 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Netscape Enterprise httpd 6.0/	Ignored State: filtered (998)
+Host: 167.187.200.17 ()	Status: Up
+Host: 167.187.200.17 ()	Ports: 443/open/tcp//http//Apache httpd/
+Host: 167.187.200.18 ()	Status: Up
+Host: 167.187.200.18 ()	Ports: 80/open/tcp//http//Apache httpd/
+Host: 167.187.200.23 ()	Status: Up
+Host: 167.187.200.23 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (998)
+Host: 167.187.200.24 ()	Status: Up
+Host: 167.187.200.24 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (998)
+Host: 167.187.200.27 ()	Status: Up
+Host: 167.187.200.27 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Netscape Enterprise httpd 6.0/	Ignored State: filtered (998)
+Host: 167.187.200.29 ()	Status: Up
+Host: 167.187.200.29 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (998)
+Host: 167.187.200.40 ()	Status: Up
+Host: 167.187.200.40 ()	Ports: 443/open/tcp//ssl|http//Apache httpd/
+Host: 167.187.200.41 ()	Status: Up
+Host: 167.187.200.41 ()	Ports: 80/open/tcp//http//Apache httpd/
+Host: 167.187.200.42 ()	Status: Up
+Host: 167.187.200.42 ()	Ports: 443/open/tcp//ssl|http//Apache httpd/
+Host: 167.187.200.8 ()	Status: Up
+Host: 167.187.200.8 ()	Ports: 443/open/tcp//ssl|https//Apache/
+Host: 167.187.20.15 ()	Status: Up
+Host: 167.187.20.15 ()	Ports: 80/open/tcp//http?///, 443/open/tcp//https?///	Ignored State: filtered (998)
+Host: 167.187.20.23 ()	Status: Up
+Host: 167.187.20.23 ()	Ports: 80/open/tcp//http?///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 167.187.20.24 ()	Status: Up
+Host: 167.187.20.24 ()	Ports: 80/open/tcp//http?///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 167.187.20.25 ()	Status: Up
+Host: 167.187.20.25 ()	Ports: 80/open/tcp//http?///
+Host: 167.187.20.45 ()	Status: Up
+Host: 167.187.20.45 ()	Ports: 80/open/tcp//http?///, 443/open/tcp//ssl|https?///	Ignored State: filtered (998)
+Host: 172.99.114.19 ()	Status: Up
+Host: 172.99.114.19 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https?///	Ignored State: filtered (998)
+Host: 173.213.0.99 (n-ny5p01lvsmib001.cheetahmail.com)	Status: Up
+Host: 173.213.0.99 (n-ny5p01lvsmib001.cheetahmail.com)	Ports: 25/open/tcp//smtp//Postfix smtpd/
+Host: 173.213.4.175 ()	Status: Up
+Host: 173.213.4.175 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 8.0/, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 18.130.25.215 (ec2-18-130-25-215.eu-west-2.compute.amazonaws.com)	Status: Up
+Host: 18.130.25.215 (ec2-18-130-25-215.eu-west-2.compute.amazonaws.com)	Ports: 80/open/tcp//http//Apache httpd 2.4.41 ((Amazon) OpenSSL|1.0.2k-fips PHP|5.6.40)/, 443/open/tcp//ssl|http//Apache httpd 2.4.41 ((Amazon) OpenSSL|1.0.2k-fips PHP|5.6.40)/	Ignored State: filtered (998)
+Host: 192.0.66.2 ()	Status: Up
+Host: 192.0.66.2 ()	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+Host: 192.161.140.98 (r98.email.hiltongrandvacations.com)	Status: Up
+Host: 192.161.140.98 (r98.email.hiltongrandvacations.com)	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (998)
+Host: 192.161.140.99 (r99.transactions.hiltongrandvacations.com)	Status: Up
+Host: 192.161.140.99 (r99.transactions.hiltongrandvacations.com)	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (998)
+Host: 198.61.165.107 ()	Status: Up
+Host: 198.61.165.107 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+Host: 206.16.213.209 ()	Status: Up
+Host: 206.16.213.209 ()	Ports: 1720/open/tcp//h323q931?///, 5060/open/tcp//sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 5061/open/tcp//ssl|sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 8443/open/tcp//ssl|http//Cisco Expressway E/
+Host: 206.16.213.210 ()	Status: Up
+Host: 206.16.213.210 ()	Ports: 1720/open/tcp//h323q931?///, 5060/open/tcp//sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 5061/open/tcp//ssl|sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 8443/open/tcp//ssl|http//Cisco Expressway E/
+Host: 207.251.96.133 (e.ns.cheetahmail.com)	Status: Up
+Host: 207.251.96.133 (e.ns.cheetahmail.com)	Ports: 53/open/tcp//domain?///
+Host: 207.251.96.134 (f.ns.cheetahmail.com)	Status: Up
+Host: 207.251.96.134 (f.ns.cheetahmail.com)	Ports: 53/open/tcp//domain?///
+Host: 207.251.96.214 (ny5pebm05.cheetahmail.com)	Status: Up
+Host: 207.251.96.214 (ny5pebm05.cheetahmail.com)	Ports: 25/open/tcp//smtp///	Ignored State: filtered (999)
+Host: 207.251.96.215 (ny5pebm06.cheetahmail.com)	Status: Up
+Host: 207.251.96.215 (ny5pebm06.cheetahmail.com)	Ports: 25/open/tcp//smtp///	Ignored State: filtered (999)
+Host: 207.251.96.243 (ebmf5test.cheetahmail.com)	Status: Up
+Host: 207.251.96.243 (ebmf5test.cheetahmail.com)	Ports: 443/open/tcp//ssl|http//Apache httpd/
+Host: 207.251.96.244 ()	Status: Up
+Host: 207.251.96.244 ()	Ports: 443/open/tcp//ssl|http//Apache httpd/
+Host: 207.251.96.80 (lb-pref.cheetahmail.com)	Status: Up
+Host: 207.251.96.80 (lb-pref.cheetahmail.com)	Ports: 443/open/tcp//ssl|http//Apache httpd 2.2.15 ((CentOS))/
+Host: 208.51.151.169 ()	Status: Up
+Host: 208.51.151.169 ()	Ports: 443/open/tcp//ssl|http//Cisco ASA SSL VPN/	Ignored State: filtered (999)
+Host: 216.15.189.57 ()	Status: Up
+Host: 216.15.189.57 ()	Ports: 53/open/tcp//domain?///
+Host: 216.15.189.58 ()	Status: Up
+Host: 216.15.189.58 ()	Ports: 53/open/tcp//domain?///
+Host: 23.253.147.202 ()	Status: Up
+Host: 23.253.147.202 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///
+Host: 23.253.205.80 ()	Status: Up
+Host: 23.253.205.80 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.2p2 (protocol 2.0)/, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+Host: 3.214.189.193 (ec2-3-214-189-193.compute-1.amazonaws.com)	Status: Up
+Host: 3.214.189.193 (ec2-3-214-189-193.compute-1.amazonaws.com)	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
+Host: 3.220.0.222 (ec2-3-220-0-222.compute-1.amazonaws.com)	Status: Up
+Host: 3.220.0.222 (ec2-3-220-0-222.compute-1.amazonaws.com)	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
+Host: 32.42.31.17 ()	Status: Up
+Host: 32.42.31.17 ()	Ports: 1720/open/tcp//h323q931?///, 5060/open/tcp//sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 5061/open/tcp//ssl|sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 8443/open/tcp//ssl|http//Cisco Expressway E/
+Host: 32.42.31.18 ()	Status: Up
+Host: 32.42.31.18 ()	Ports: 1720/open/tcp//h323q931?///, 5060/open/tcp//sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 5061/open/tcp//ssl|sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 8443/open/tcp//ssl|http//Cisco Expressway E/
+Host: 32.60.54.161 ()	Status: Up
+Host: 32.60.54.161 ()	Ports: 5060/open/tcp//sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 5061/open/tcp//ssl|sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 8443/open/tcp//ssl|http//Cisco Expressway E/
+Host: 32.60.54.162 ()	Status: Up
+Host: 32.60.54.162 ()	Ports: 1720/open/tcp//h323q931?///, 5060/open/tcp//sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 5061/open/tcp//ssl|sip-proxy//Cisco Unified Communications Manager sipd 12.5 (zone: DefaultZone)/, 8443/open/tcp//ssl|http//Cisco Expressway E/
+Host: 34.233.199.244 (ec2-34-233-199-244.compute-1.amazonaws.com)	Status: Up
+Host: 34.233.199.244 (ec2-34-233-199-244.compute-1.amazonaws.com)	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
+Host: 35.189.79.111 (111.79.189.35.bc.googleusercontent.com)	Status: Up
+Host: 35.189.79.111 (111.79.189.35.bc.googleusercontent.com)	Ports: 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (999)
+Host: 50.56.49.56 ()	Status: Up
+Host: 50.56.49.56 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|http//Apache httpd/
+Host: 50.56.53.9 ()	Status: Up
+Host: 50.56.53.9 ()	Ports: 80/open/tcp//http//Apache httpd/
+Host: 54.89.15.56 (ec2-54-89-15-56.compute-1.amazonaws.com)	Status: Up
+Host: 54.89.15.56 (ec2-54-89-15-56.compute-1.amazonaws.com)	Ports: 21/open/tcp//ftp//FileZilla ftpd/, 443/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (998)
+Host: 61.14.137.120 (ip-61-14-137-120.asianetcom.net)	Status: Up
+Host: 61.14.137.120 (ip-61-14-137-120.asianetcom.net)	Ports: 443/open/tcp//ssl|http//Cisco ASA SSL VPN/	Ignored State: filtered (999)
+Host: 63.148.46.26 (ny5pbrg01.cheetahmail.com)	Status: Up
+Host: 63.148.46.26 (ny5pbrg01.cheetahmail.com)	Ports: 25/open/tcp//smtp//Postfix smtpd/	Ignored State: filtered (999)
+Host: 63.149.195.156 ()	Status: Up
+Host: 63.149.195.156 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/
+Host: 64.207.153.59 (8dvr-6k8h.accessdomain.com)	Status: Up
+Host: 64.207.153.59 (8dvr-6k8h.accessdomain.com)	Ports: 21/open/tcp//ftp//ProFTPD/, 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 25/open/tcp//smtp//qmail smtpd/, 53/open/tcp//domain//(unknown banner: none)/, 80/open/tcp//http//nginx/, 106/open/tcp//tcpwrapped///, 110/open/tcp//pop3//Courier pop3d/, 143/open/tcp//imap//Courier Imapd (released 2018)/, 443/open/tcp//ssl|http//nginx/, 465/open/tcp//ssl|smtp//qmail smtpd/, 993/open/tcp//ssl|imaps?///, 995/open/tcp//ssl|pop3s?///, 3306/open/tcp//mysql//MariaDB (unauthorized)/, 8443/open/tcp//ssl|https-alt//sw-cp-server/
+Host: 65.117.229.156 ()	Status: Up
+Host: 65.117.229.156 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/
+Host: 65.125.54.133 (a.ns.cheetahmail.com)	Status: Up
+Host: 65.125.54.133 (a.ns.cheetahmail.com)	Ports: 53/open/tcp//domain?///	Ignored State: filtered (999)
+Host: 65.125.54.134 (b.ns.cheetahmail.com)	Status: Up
+Host: 65.125.54.134 (b.ns.cheetahmail.com)	Ports: 53/open/tcp//domain?///	Ignored State: filtered (999)
+Host: 67.134.222.254 ()	Status: Up
+Host: 67.134.222.254 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/
+Host: 70.32.90.12 (200westadams.com)	Status: Up
+Host: 70.32.90.12 (200westadams.com)	Ports: 21/open/tcp//ftp//ProFTPD/, 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 25/open/tcp//smtp//Postfix smtpd/, 53/open/tcp//domain//(unknown banner: none)/, 80/open/tcp//http//nginx/, 110/open/tcp//pop3//Dovecot pop3d/, 143/open/tcp//imap//Dovecot imapd/, 443/open/tcp//ssl|http//nginx/, 465/open/tcp//ssl|smtp//Postfix smtpd/, 993/open/tcp//imaps?///, 995/open/tcp//pop3s?///, 3306/open/tcp//mysql//MySQL 5.5.5-10.2.38-MariaDB/, 8443/open/tcp//ssl|https-alt//sw-cp-server/
+Host: 8.23.247.244 ()	Status: Up
+Host: 8.23.247.244 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/
+Host: 8.33.184.254 ()	Status: Up
+Host: 8.33.184.254 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/
+# Nmap done at Sun Jun  6 07:42:22 2021 -- 335 IP addresses (335 hosts up) scanned in 11381.29 seconds
